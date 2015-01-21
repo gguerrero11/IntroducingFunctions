@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void)printIntroductions:(NSString *)name;
+
+- (void)countDownTillIntroduction:(int)numberOfDays;
+
 
 @end
 
